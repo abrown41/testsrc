@@ -28,3 +28,13 @@ test_z <- function() {
   )
   AutoFeedbackR::check_var("z", expected_z)
 }
+
+#' Test if student's addition function is correct
+#'
+#' @return Invisible TRUE/FALSE indicating test success
+#' @export
+test_my_add <- function() {
+  AutoFeedbackR::check_func("my_add", 
+                            list(list(1, 2), list(5, -3), list(0, 0)), 
+                            list(3, 2, 0))
+}
