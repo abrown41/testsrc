@@ -10,4 +10,4 @@ LazyData: true
 RoxygenNote: 7.1.1
 Depends:
     R (>= 3.5.0),
-    studentfeedback (>= 0.1.0)
+    AutoFeedbackR (>= 0.1.0)
