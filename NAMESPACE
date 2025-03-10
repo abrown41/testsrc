@@ -1,0 +1,7 @@
+# Export test functions
+export(test_x)
+export(test_y)
+export(test_z)
+
+# Import from studentfeedback
+importFrom(AutoFeedbackR, check_var)
